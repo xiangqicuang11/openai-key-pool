@@ -4,14 +4,14 @@ key=[]
 while True:
     a=input("请输入你的选项:")
     if a=="1":
-        a1=openaikey.add-key.add-key
+        a1=openaikey.add~key.add~key
         if a==None:
             print("没有这个key,请换一个key试试")
         else:
             key.append(a1)
     if a=="2":
         a2=input("请输入key")
-        a1=openaikey.del-key.del-key(a2)
+        a1=openaikey.del~key.del~key(a2)
         if a1=="no":
             print("没有这个key")
         else:
@@ -19,15 +19,15 @@ while True:
             print("删除成功")
     if a=="3":
         a2=input("请输入key")
-        a1=openaikey.shart-key.shart-key(a2)
+        a1=openaikey.shart~key.shart~key(a2)
         print(a1)
     if a=="4":
         for i in range(len(key)):
-            openaikey.seva-key.seva-key(key[i])
+            openaikey.seva~key.seva~key(key[i])
         print("保存成功")
     if a=="5":
         for i in range(len(key)):
-            a3=openaikey.many-key.many-key(key[i]) 
+            a3=openaikey.many~key.many~key(key[i]) 
             print(a3)
             
             
